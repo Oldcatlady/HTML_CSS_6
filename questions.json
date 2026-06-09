@@ -1,0 +1,326 @@
+[
+{
+"frage": "Welche Aussage beschreibt GET am besten?",
+"antworten": [
+"Daten werden unsichtbar verschlüsselt übertragen",
+"Daten werden nicht übertragen",
+"Daten werden im Hintergrund ohne Verbindung gespeichert",
+"Daten werden direkt im HTML-Code gespeichert",
+"Daten werden über die URL übertragen und sichtbar angehängt"
+],
+"korrekteAntwort": 4,
+"erklaerung": "Bei dieser Übertragungsart werden Eingaben in der Adresszeile sichtbar gemacht, was sie eher für einfache Abfragen geeignet macht."
+},
+{
+"frage": "Welche Aussage beschreibt POST am besten?",
+"antworten": [
+"Daten werden ausschließlich lokal im Browser gespeichert",
+"Daten werden automatisch gelöscht nach dem Absenden",
+"Daten werden ohne Verbindung zum Server verarbeitet",
+"Daten werden im HTML-Code sichtbar gespeichert",
+"Daten werden im Hintergrund an den Server übertragen"
+],
+"korrekteAntwort": 4,
+"erklaerung": "Diese Methode wird verwendet, wenn Daten nicht sichtbar in der URL erscheinen sollen und typischerweise größere oder sensible Informationen übertragen werden."
+},
+{
+"frage": "Welche Kombination ist ein korrektes Formular mit Auswahlfeld?",
+"antworten": [
+"<form><select name=\"country\"><option>Deutschland</option></select></form>",
+"<select><form name=\"country\"></form></select>",
+"<option><select>Deutschland</select></option>",
+"<form><option name=\"country\">Deutschland</option></form>",
+"<input select=\"country\">Deutschland</input>"
+],
+"korrekteAntwort": 0,
+"erklaerung": "Ein Auswahlfeld besteht aus einem Container für die Auswahl und einzelnen Einträgen. Diese Struktur muss korrekt verschachtelt sein, damit sie funktioniert."
+},
+{
+"frage": "Welche CSS-Eigenschaft wird verwendet, um die Breite eines Elements festzulegen?",
+"antworten": [
+"height",
+"size",
+"length",
+"width",
+"margin"
+],
+"korrekteAntwort": 3,
+"erklaerung": "Die Breite eines HTML-Elements wird über eine spezifische CSS-Eigenschaft gesteuert. Diese beeinflusst, wie viel horizontaler Platz das Element einnimmt und ist zentral für Layoutgestaltung."
+},
+{
+"frage": "Welche CSS-Eigenschaft definiert den Abstand außerhalb eines Elements?",
+"antworten": [
+"padding",
+"border",
+"margin",
+"gap",
+"outline"
+],
+"korrekteAntwort": 2,
+"erklaerung": "Der Außenabstand bestimmt den Raum zwischen einem Element und anderen Elementen. Dadurch wird das Layout visuell strukturiert und getrennt."
+},
+{
+"frage": "Wozu dient padding in CSS?",
+"antworten": [
+"Es bestimmt den Abstand zwischen Element und Hintergrundseite",
+"Es legt die Schriftgröße fest",
+"Es definiert den Innenabstand eines Elements",
+"Es erstellt einen Rahmen um das Dokument",
+"Es verändert die Position des Elements im Grid"
+],
+"korrekteAntwort": 2,
+"erklaerung": "Der Innenabstand sorgt dafür, dass Inhalte nicht direkt am Rand eines Elements kleben. Dadurch wirkt das Layout lesbarer und strukturierter."
+},
+{
+"frage": "Welche CSS-Regel definiert einen Rahmen um ein Element?",
+"antworten": [
+"border",
+"outline",
+"stroke",
+"frame",
+"line"
+],
+"korrekteAntwort": 0,
+"erklaerung": "Ein Rahmen wird über eine kombinierte Eigenschaft definiert, die Dicke, Stil und Farbe enthalten kann. Sie wird häufig zur visuellen Abgrenzung von Elementen verwendet."
+},
+{
+"frage": "Welche CSS-Regel setzt die Hintergrundfarbe des gesamten Seiteninhalts?",
+"antworten": [
+"html { color: ... }",
+"body { background-color: ... }",
+"page { background: ... }",
+"main { style: ... }",
+"section { fill: ... }"
+],
+"korrekteAntwort": 1,
+"erklaerung": "Die Hintergrundgestaltung der gesamten Webseite wird typischerweise auf dem Hauptelement angewendet, das alle Inhalte enthält. Dadurch wird die gesamte sichtbare Fläche beeinflusst."
+},
+{
+"frage": "Welche Schriftfamilie wird im Beispiel für den body gesetzt?",
+"antworten": [
+"Times New Roman",
+"Courier New",
+"Verdana",
+"Arial, sans-serif",
+"Georgia"
+],
+"korrekteAntwort": 3,
+"erklaerung": "Die Schriftart bestimmt das grundlegende Erscheinungsbild von Texten auf der Webseite. Mehrere Werte können als Fallback definiert werden."
+},
+{
+"frage": "Warum werden label und input in ein gemeinsames div mit class=\"field\" gelegt?",
+"antworten": [
+"Damit das Formular automatisch an den Server gesendet wird",
+"Damit CSS keine Wirkung mehr auf die Elemente hat",
+"Damit die Eingaben verschlüsselt werden",
+"Damit jedes Feld logisch gruppiert und vertikal angeordnet werden kann",
+"Damit die Schriftart automatisch geändert wird"
+],
+"korrekteAntwort": 3,
+"erklaerung": "Durch Gruppierung in Container-Elemente entsteht eine klare Struktur. Das erleichtert sowohl Styling als auch Lesbarkeit und Layoutkontrolle."
+},
+{
+"frage": "Welche CSS-Eigenschaft sorgt für Abstand zwischen den einzelnen Formularfeldern?",
+"antworten": [
+"padding-bottom: 15px in .field",
+"margin-left: 15px",
+"border-spacing: 15px",
+"gap: 15px im input",
+"font-size: 15px"
+],
+"korrekteAntwort": 0,
+"erklaerung": "Vertikale Abstände zwischen Gruppen werden typischerweise über den Außenabstand des Container-Elements gesteuert. Dadurch entsteht eine klare Trennung der Eingabebereiche."
+},
+{
+"frage": "Was passiert, wenn width von 10% auf 100% bei input, textarea und button erhöht wird?",
+"antworten": [
+"Die Elemente verschwinden aus dem Layout",
+"Die Elemente werden kleiner und kompakter",
+"Die Elemente werden absolut positioniert",
+"Die Elemente werden vertikal ausgerichtet",
+"Die Elemente füllen zunehmend die gesamte verfügbare Breite ihres Containers"
+],
+"korrekteAntwort": 4,
+"erklaerung": "Die Breite eines Elements bestimmt seinen horizontalen Raum im Container. Eine größere Prozentangabe bedeutet eine stärkere Ausdehnung innerhalb des verfügbaren Platzes."
+},
+{
+"frage": "Welche Kombination beschreibt die korrekte vertikale Anordnung eines Formulars?",
+"antworten": [
+"Alle Elemente werden in eine einzige Zeile geschrieben",
+"Elemente werden ohne Container direkt nebeneinander dargestellt",
+"Elemente werden durch <br> getrennt und ohne CSS gestylt",
+"Jedes Feld (label + input) wird in einen eigenen Container gelegt",
+"Nur CSS Grid wird zwingend verwendet"
+],
+"korrekteAntwort": 3,
+"erklaerung": "Strukturierte Layouts entstehen durch klare Gruppierung der Inhalte. Dadurch können Felder einheitlich ausgerichtet und besser gestaltet werden."
+},
+{
+"frage": "Welche Aussage beschreibt den Zweck des Formularlayouts am besten?",
+"antworten": [
+"Es dient ausschließlich zur Verschlüsselung von Daten",
+"Es soll das Formular unbenutzbar machen",
+"Es ersetzt HTML vollständig",
+"Es sorgt für eine strukturierte, lesbare und nutzbare Darstellung der Eingabefelder",
+"Es verhindert die Nutzung von CSS"
+],
+"korrekteAntwort": 3,
+"erklaerung": "Ein gutes Layout verbessert die Bedienbarkeit und sorgt dafür, dass Nutzer Eingabefelder schnell verstehen und korrekt ausfüllen können."
+},
+{
+"frage": "Welche CSS-Eigenschaft wird verwendet, um Elemente horizontal nebeneinander anzuordnen?",
+"antworten": [
+"display: block",
+"position: absolute",
+"display: flex",
+"float: none",
+"text-align: center"
+],
+"korrekteAntwort": 2,
+"erklaerung": "Flexbox ist ein Layout-Modell, das es ermöglicht, Elemente in einer Zeile oder Spalte anzuordnen. Standardmäßig ist die Richtung horizontal, wodurch Elemente nebeneinander erscheinen können."
+},
+{
+"frage": "Was bewirkt display: flex; auf einen Container?",
+"antworten": [
+"Es deaktiviert alle Kind-Elemente",
+"Es ordnet Elemente automatisch in einem Raster (Grid) an",
+"Es entfernt alle Abstände zwischen Elementen",
+"Es zwingt alle Elemente in eine absolute Position",
+"Es aktiviert ein flexibles Layout für die direkten Kinder des Containers"
+],
+"korrekteAntwort": 4,
+"erklaerung": "Flexbox wirkt auf die direkten Kind-Elemente eines Containers und ermöglicht flexible Anordnung und Ausrichtung ohne feste Positionierung."
+},
+{
+"frage": "Wie kann man erreichen, dass input-Felder weiterhin die volle Breite nutzen, obwohl Flexbox verwendet wird?",
+"antworten": [
+"Durch width: 100% auf die input-Elemente",
+"Durch display: inline-block",
+"Durch margin: auto auf den Container",
+"Durch float: left",
+"Durch position: fixed"
+],
+"korrekteAntwort": 0,
+"erklaerung": "Die Breite eines Elements wird unabhängig vom Layoutmodell über die width-Eigenschaft gesteuert. 100% sorgt dafür, dass das Element den verfügbaren Platz vollständig nutzt."
+},
+{
+"frage": "Warum benötigt man eine spezielle CSS-Regel für input[type=\"checkbox\"]?",
+"antworten": [
+"Weil Checkboxen keine HTML-Elemente sind",
+"Weil Checkboxen automatisch gelöscht werden",
+"Weil Checkboxen sonst keine Funktion haben",
+"Weil sie sonst die gleiche Breite wie Textfelder übernehmen würden",
+"Weil Checkboxen nur mit JavaScript funktionieren"
+],
+"korrekteAntwort": 3,
+"erklaerung": "Allgemeine CSS-Regeln für input betreffen alle Eingabetypen. Spezifische Selektoren erlauben es, einzelne Typen gezielt anders zu gestalten."
+},
+{
+"frage": "Was bewirkt die CSS-Regel input[type=\"checkbox\"] { width: 20px; }?",
+"antworten": [
+"Sie versteckt die Checkbox im Formular",
+"Sie entfernt die Checkbox aus dem Layout",
+"Sie macht die Checkbox automatisch zu einem Textfeld",
+"Sie überschreibt die allgemeine Breitenregel nur für Checkboxen",
+"Sie setzt die Checkbox auf 100% Breite"
+],
+"korrekteAntwort": 3,
+"erklaerung": "Spezifischere CSS-Regeln haben Vorrang vor allgemeinen Regeln. Dadurch können einzelne Elemente gezielt angepasst werden, ohne andere zu beeinflussen."
+},
+{
+"frage": "Wie kann man Abstand zwischen zwei Input-Feldern erzeugen?",
+"antworten": [
+"Durch margin oder padding zwischen den Elementen oder deren Container",
+"Durch display: flex ohne weitere Regeln",
+"Durch Entfernen aller CSS-Regeln",
+"Durch width: 0 auf das erste Feld",
+"Durch position: fixed auf beide Felder"
+],
+"korrekteAntwort": 0,
+"erklaerung": "Abstände zwischen Elementen werden im CSS typischerweise über margin (Außenabstand) oder padding (Innenabstand im Container) gesteuert."
+},
+{
+"frage": "Welche CSS-Eigenschaft eignet sich besonders für horizontale Anordnung von Name und Vorname?",
+"antworten": [
+"display: block",
+"display: flex",
+"text-decoration: none",
+"font-weight: bold",
+"overflow: hidden"
+],
+"korrekteAntwort": 1,
+"erklaerung": "Flexbox ist speziell dafür geeignet, Elemente in einer Reihe anzuordnen und ihre Position flexibel zu steuern, ohne feste Positionierung oder Floats zu verwenden."
+},
+{
+"frage": "Was passiert, wenn alle input-Felder standardmäßig width: 100% haben und Checkboxen nicht separat behandelt werden?",
+"antworten": [
+"Checkboxen verschwinden aus dem Formular",
+"Checkboxen werden automatisch deaktiviert",
+"Checkboxen werden auf volle Breite verzerrt dargestellt",
+"Checkboxen werden zu Textfeldern umgewandelt",
+"Das Formular funktioniert nicht mehr"
+],
+"korrekteAntwort": 2,
+"erklaerung": "Globale CSS-Regeln gelten für alle passenden Elemente. Ohne spezifische Ausnahme werden auch kleine Steuerelemente wie Checkboxen beeinflusst."
+},
+{
+"frage": "Welche CSS-Technik wird genutzt, um eine allgemeine Regel für input zu überschreiben?",
+"antworten": [
+"Geringere Spezifität im Selektor",
+"Entfernen der HTML-Struktur",
+"Verwendung von HTML statt CSS",
+"Höhere Spezifität durch genaueren Selektor",
+"Deaktivieren von CSS"
+],
+"korrekteAntwort": 3,
+"erklaerung": "CSS-Regeln mit spezifischeren Selektoren haben Vorrang vor allgemeinen Regeln. Dadurch können gezielt einzelne Eingabetypen angepasst werden."
+},
+{
+"frage": "Wie lässt sich der Abstand zwischen zwei benachbarten Input-Feldern am sinnvollsten lösen?",
+"antworten": [
+"Durch margin-bottom auf jedem Feldcontainer",
+"Durch width: 0 auf alle Felder",
+"Durch display: inline auf das Formular",
+"Durch Entfernen aller Labels",
+"Durch absolute Positionierung beider Felder"
+],
+"korrekteAntwort": 0,
+"erklaerung": "Vertikale Abstände werden in Formularen typischerweise über margin zwischen Container-Elementen gesteuert, da dies das Layout stabil und gut lesbar hält."
+},
+{
+"frage": "Welche CSS-Eigenschaft aktiviert ein Flexbox-Layout für ein Container-Element?",
+"antworten": [
+"display: grid",
+"display: block",
+"display: inline",
+"display: flex",
+"position: flex"
+],
+"korrekteAntwort": 3,
+"erklaerung": "Ein Flex-Container definiert ein flexibles Layoutmodell für seine direkten Kinder. Dadurch werden diese automatisch zu Flex-Items, die sich dynamisch im verfügbaren Raum anpassen können."
+},
+{
+"frage": "Welche Bedeutung hat flex-grow im Flexbox-Modell?",
+"antworten": [
+"Es bestimmt die Startfarbe eines Elements",
+"Es legt fest, wie stark ein Element schrumpfen darf",
+"Es definiert die feste Mindesthöhe eines Elements",
+"Es steuert die Startposition im Grid",
+"Es legt fest, wie stark ein Element im verfügbaren Platz wachsen darf"
+],
+"korrekteAntwort": 4,
+"erklaerung": "Flex-Items können zusätzlichen Platz im Container erhalten. Dieser wird proportional verteilt, abhängig von ihrem jeweiligen Wachstumsfaktor."
+},
+{
+"frage": "Was bedeutet flex-shrink im Flexbox-Modell?",
+"antworten": [
+"Es bestimmt die Hintergrundfarbe eines Elements",
+"Es legt fest, wie stark ein Element bei Platzmangel schrumpfen darf",
+"Es definiert die maximale Breite eines Elements",
+"Es steuert die Reihenfolge der Elemente",
+"Es verhindert jegliche Größenänderung"
+],
+"korrekteAntwort": 1,
+"erklaerung": "Wenn der verfügbare Platz im Container nicht ausreicht, werden Elemente proportional verkleinert, abhängig von ihrem Schrumpffaktor."
+}
+]
